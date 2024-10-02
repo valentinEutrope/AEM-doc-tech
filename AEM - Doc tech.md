@@ -203,5 +203,5 @@ Exemple inclusion boîte de dialogue avec paramètres : https://adobe-consulting
 
 Accéder à la config OSGi : `localhost:4502/system/console/configMgr`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjY3MzczOCwxNTQ4NjAyMjgyXX0=
+eyJoaXN0b3J5IjpbMjEyNjY3MzczOF19
 -->
