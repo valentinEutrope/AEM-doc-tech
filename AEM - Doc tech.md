@@ -199,6 +199,7 @@ Exemple inclusion boîte de dialogue avec paramètres : https://adobe-consulting
 - Clic sur ok -> le toggle devrait être passé au vert
 - RDV sur votre publish pour constater son fonctionnement
 
+> accéder à la config OSGi : localhost:4502/system/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODYwMjI4Ml19
+eyJoaXN0b3J5IjpbMTk3MTY0NjEyNSwxNTQ4NjAyMjgyXX0=
 -->
