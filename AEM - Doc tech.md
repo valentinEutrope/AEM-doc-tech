@@ -193,7 +193,7 @@ Exemple inclusion boîte de dialogue avec paramètres : https://adobe-consulting
 - Déplier dans l'arbre à gauche : etc/replication/agents.author/publish
 - Double clic sur "publish"
 - Aller sur "edit" (à côté de settings), une fenêtre apparaît 
-- Sur le premier onglet "settings", cocher "enabled" et supprimer l'entrée "Agent User Id"
+- Sur le premier onglet "settings", cocher "enabled" et vider l'entrée "Agent User Id"
 -  Dans l'onglet "transport", mettre l'url de votre publish, par exemple : `http://localhost:4503/bin/receive?sling:authRequestLogin=1` 
 - Entrer le user et password dans les champs concernés (admin / admin) 
 - Clic sur ok -> le toggle devrait être passé au vert
@@ -203,5 +203,5 @@ Exemple inclusion boîte de dialogue avec paramètres : https://adobe-consulting
 
 Accéder à la config OSGi : `localhost:4502/system/console/configMgr`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjY3MzczOF19
+eyJoaXN0b3J5IjpbMTM2OTM3MTg1MywyMTI2NjczNzM4XX0=
 -->
