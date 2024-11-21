@@ -202,6 +202,13 @@ Exemple inclusion boîte de dialogue avec paramètres : https://adobe-consulting
 ### OSGi
 
 Accéder à la config OSGi : `localhost:4502/system/console/configMgr`
+
+### Debug
+
+Lancer AEM en mode debug (pour utiliser le debug VSCode)
+
+`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8000 -jar aem-sdk-quickstart.jar`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTM3MTg1MywyMTI2NjczNzM4XX0=
+eyJoaXN0b3J5IjpbLTE1NzA1NDg1OSwxMzY5MzcxODUzLDIxMj
+Y2NzM3MzhdfQ==
 -->
