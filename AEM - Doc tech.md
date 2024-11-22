@@ -208,7 +208,9 @@ Accéder à la config OSGi : `localhost:4502/system/console/configMgr`
 Lancer AEM en mode debug (pour utiliser le debug VSCode)
 
 `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8000 -jar aem-sdk-quickstart.jar`
+
+adapter le port et le nom du fichier jar selon la situation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzA1NDg1OSwxMzY5MzcxODUzLDIxMj
-Y2NzM3MzhdfQ==
+eyJoaXN0b3J5IjpbMTgyOTQwNzQ3OCwtMTU3MDU0ODU5LDEzNj
+kzNzE4NTMsMjEyNjY3MzczOF19
 -->
