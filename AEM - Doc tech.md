@@ -197,6 +197,7 @@ Exemple inclusion boîte de dialogue avec paramètres : https://adobe-consulting
 -  Dans l'onglet "transport", mettre l'url de votre publish, par exemple : `http://localhost:4503/bin/receive?sling:authRequestLogin=1` 
 - Entrer le user et password dans les champs concernés (admin / admin) 
 - Clic sur ok -> le toggle devrait être passé au vert
+- Se rendre sur le package manager et faire replicate 
 - RDV sur votre publish pour constater son fonctionnement
 
 ### OSGi
@@ -211,6 +212,6 @@ Lancer AEM en mode debug (pour utiliser le debug VSCode)
 
 adapter le port et le nom du fichier jar selon la situation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTQwNzQ3OCwtMTU3MDU0ODU5LDEzNj
-kzNzE4NTMsMjEyNjY3MzczOF19
+eyJoaXN0b3J5IjpbLTE3OTc5MjUxOTIsMTgyOTQwNzQ3OCwtMT
+U3MDU0ODU5LDEzNjkzNzE4NTMsMjEyNjY3MzczOF19
 -->
