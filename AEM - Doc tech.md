@@ -212,14 +212,14 @@ Lancer AEM en mode debug (pour utiliser le debug VSCode)
 
 adapter le port et le nom du fichier jar selon la situation
 
-### GITHUB
+### Github
 
 -   `git remote remove origin`
 -   Vérifier que vous n'avez plus de remote : `git remote -v`
 -   `git remote add origin` `https://[github-user]:[token]@github.com/Desjardins/sfl-aem-dedicated.git`
 -   Tester le fonctionnement : `git fetch --all`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5MDMzMTUsOTI1MzI0MTIwLC0xNzk3OT
-I1MTkyLDE4Mjk0MDc0NzgsLTE1NzA1NDg1OSwxMzY5MzcxODUz
-LDIxMjY2NzM3MzhdfQ==
+eyJoaXN0b3J5IjpbLTc1OTg0MzIxMyw5MjUzMjQxMjAsLTE3OT
+c5MjUxOTIsMTgyOTQwNzQ3OCwtMTU3MDU0ODU5LDEzNjkzNzE4
+NTMsMjEyNjY3MzczOF19
 -->
