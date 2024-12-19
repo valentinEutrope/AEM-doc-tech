@@ -211,8 +211,15 @@ Lancer AEM en mode debug (pour utiliser le debug VSCode)
 `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8000 -jar aem-sdk-quickstart.jar`
 
 adapter le port et le nom du fichier jar selon la situation
+
+### GITHUB
+
+-   `git remote remove origin`
+-   Vérifier que vous n'avez plus de remote : `git remote -v`
+-   `git remote add origin` `https://[github-user]:[token]@github.com/Desjardins/sfl-aem-dedicated.git`
+-   Tester le fonctionnement : `git fetch --all`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1MzI0MTIwLC0xNzk3OTI1MTkyLDE4Mj
-k0MDc0NzgsLTE1NzA1NDg1OSwxMzY5MzcxODUzLDIxMjY2NzM3
-MzhdfQ==
+eyJoaXN0b3J5IjpbNzI5MDMzMTUsOTI1MzI0MTIwLC0xNzk3OT
+I1MTkyLDE4Mjk0MDc0NzgsLTE1NzA1NDg1OSwxMzY5MzcxODUz
+LDIxMjY2NzM3MzhdfQ==
 -->
