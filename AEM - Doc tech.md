@@ -216,10 +216,10 @@ adapter le port et le nom du fichier jar selon la situation
 
 -   `git remote remove origin`
 -   Vérifier que vous n'avez plus de remote : `git remote -v`
--   `git remote add origin` `https://[github-user]:[token]@github.com/Desjardins/sfl-aem-dedicated.git`
+-   `git remote add origin https://[github-user]:[token]@github.com/Desjardins/sfl-aem-dedicated.git`
 -   Tester le fonctionnement : `git fetch --all`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTg0MzIxMyw5MjUzMjQxMjAsLTE3OT
-c5MjUxOTIsMTgyOTQwNzQ3OCwtMTU3MDU0ODU5LDEzNjkzNzE4
-NTMsMjEyNjY3MzczOF19
+eyJoaXN0b3J5IjpbLTEwNjM1OTA3MzMsLTc1OTg0MzIxMyw5Mj
+UzMjQxMjAsLTE3OTc5MjUxOTIsMTgyOTQwNzQ3OCwtMTU3MDU0
+ODU5LDEzNjkzNzE4NTMsMjEyNjY3MzczOF19
 -->
