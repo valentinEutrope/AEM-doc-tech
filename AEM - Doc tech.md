@@ -13,9 +13,8 @@
 #### Author
 
 Principalement une seule instance author.  
-Représente le BO. Sert à éditer, publier les pages.  
-Pas accessible au public.  
-Permet de gérer  
+Représente le BO. Sert à éditer et publier les pages.  
+Pas accessible au public.    
 Connecter au publish et dispatcher.
 
 #### Publish
@@ -29,9 +28,7 @@ Gère le cache et sert au load balancing.
 #### CRX
 
 Ancien outil d’AEM pour modifier le HTL / CSS etc…
-
-Dispo que sur Author
-
+Dispo que sur Author.
 On ne modifie pas dans CRX, on utilise un IDE local puis on import le code dans CRX.
 
 #### Config
@@ -267,8 +264,8 @@ adapter le port et le nom du fichier jar selon la situation
 -   `git remote add origin https://[github-user]:[token]@github.com/Desjardins/sfl-aem-dedicated.git`
 -   Tester le fonctionnement : `git fetch --all`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4ODgxNjE4NCwtMTA2MzU5MDczMywtNz
-U5ODQzMjEzLDkyNTMyNDEyMCwtMTc5NzkyNTE5MiwxODI5NDA3
-NDc4LC0xNTcwNTQ4NTksMTM2OTM3MTg1MywyMTI2NjczNzM4XX
-0=
+eyJoaXN0b3J5IjpbLTE4MTM5MTU4MjAsLTEwNjM1OTA3MzMsLT
+c1OTg0MzIxMyw5MjUzMjQxMjAsLTE3OTc5MjUxOTIsMTgyOTQw
+NzQ3OCwtMTU3MDU0ODU5LDEzNjkzNzE4NTMsMjEyNjY3MzczOF
+19
 -->
