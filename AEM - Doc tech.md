@@ -1,6 +1,54 @@
 
 # Doc techniques
 
+## Présentation
+
+### Environnements
+
+-   author
+-   publish
+-   dispatcher
+-   sling model
+
+#### Author
+
+Principalement une seule instance author.  
+Représente le BO. Sert à éditer, publier les pages.  
+Pas accessible au public.  
+Permet de gérer  
+Connecter au publish et dispatcher.
+
+#### Publish
+
+Pas modifiable. C’est la version publiée et accessible de l’author.
+
+#### Dispatcher
+
+Gère le cache et sert au load balancing.
+
+#### CRX
+
+Ancien outil d’AEM pour modifier le HTL / CSS etc…
+
+Dispo que sur Author
+
+On ne modifie pas dans CRX, on utilise un IDE local puis on import le code dans CRX.
+
+#### Config
+
+Gérer les noeuds via le XML
+
+Archi différentes dans CRXDE et VSCode car CRDXE ne contient pas le core (partie JAVA)
+
+### Packages
+
+package immuable -> à livrer en prod  
+package mutable -> on ne modifie que celui-ci durant le dev
+
+faire “-snapshot” détermine si immuable lors de la livraison
+
+se défini via cloud manager
+
 ## Build
 
 #### Plugin
@@ -219,7 +267,8 @@ adapter le port et le nom du fichier jar selon la situation
 -   `git remote add origin https://[github-user]:[token]@github.com/Desjardins/sfl-aem-dedicated.git`
 -   Tester le fonctionnement : `git fetch --all`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM1OTA3MzMsLTc1OTg0MzIxMyw5Mj
-UzMjQxMjAsLTE3OTc5MjUxOTIsMTgyOTQwNzQ3OCwtMTU3MDU0
-ODU5LDEzNjkzNzE4NTMsMjEyNjY3MzczOF19
+eyJoaXN0b3J5IjpbLTk4ODgxNjE4NCwtMTA2MzU5MDczMywtNz
+U5ODQzMjEzLDkyNTMyNDEyMCwtMTc5NzkyNTE5MiwxODI5NDA3
+NDc4LC0xNTcwNTQ4NTksMTM2OTM3MTg1MywyMTI2NjczNzM4XX
+0=
 -->
